@@ -5,7 +5,7 @@ const router = require('express').Router();
 const ResourcesController = require('../controllers/resourcesController');
 
 // Our routes
-
+router.get(`/`, PagesController.show);
 
 // We have to export our changes
 module.exports = router;

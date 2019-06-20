@@ -24,7 +24,9 @@
     "pug": "^2.0.3"
   },
   "description": "\"# jsMidterm\"",
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/carloscalderoon/jsMidterm.git"
