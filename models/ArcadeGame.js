@@ -9,14 +9,11 @@ const ArcadeGameSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  email: {
+  rating: {
     type: String,
     required: true
   },
-  password: {
+  description: {
     type: String,
     required: true
-  }
-}, {
-  timestamps: true
-});
+  }});

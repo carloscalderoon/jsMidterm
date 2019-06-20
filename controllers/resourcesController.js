@@ -7,7 +7,9 @@ exports.index = (req, res) => {};
 exports.show = (req, res) => {};
 
 
-exports.new = (req, res) => {};
+exports.new = (req, res) => {
+    res.render('resources/new', {});
+};
 
 
 exports.edit = (req, res) => {};
