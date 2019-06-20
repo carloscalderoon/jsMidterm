@@ -1,15 +1,16 @@
 // Our dotenv
 require('dotenv').config();
 
-// Connecting to MongoDB cluster with Mongoose
+// Mongoose
 const mongoose = require('mongoose');
 mongoose.connect(process.env.DB_URI, {
   auth: {
-    user: process.env.USERNAME,
-    password: process.env.PASSWORD
+    user: process.env.DB_USER,
+    password: process.env.DB_PASS
   },
   useNewUrlParser: true
 }).catch(err => console.error(`ERROR: ${err}`));
+// End Mongoose
 
 // Our imported libraries
 const express = require('express');
