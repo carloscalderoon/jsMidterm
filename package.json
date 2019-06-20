@@ -23,5 +23,14 @@
     "node": "^12.4.0",
     "pug": "^2.0.3"
   },
-  "description": ""
+  "description": "\"# jsMidterm\"",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloscalderoon/jsMidterm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/carloscalderoon/jsMidterm/issues"
+  },
+  "homepage": "https://github.com/carloscalderoon/jsMidterm#readme"
 }
